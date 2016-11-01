@@ -1,8 +1,12 @@
 
 public class Main {
 	
-	public static void main(String[] args) { new Main().init();	}
+	public static void main(String[] args) {new Main();}
 
+	public Main(){
+		init();
+	}
+	
 	private void init() {
 		initGraphics();
 		initGame(); 
