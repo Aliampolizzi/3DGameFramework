@@ -1,5 +1,5 @@
  
-public class Game implements Runnable {
+public class Game{
 
 	public Game(){
 		//init various details about game
@@ -9,9 +9,11 @@ public class Game implements Runnable {
 		
 	}
 	
-	@Override
-	public void run() {
+	public void update(){
 		
+	}
+
+	public void exit() {
 		
 	}
 
